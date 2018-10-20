@@ -78,7 +78,7 @@ function importedEgg(){
     var impEgg = document.getElementById('impEgg');
     var eggImg = document.createElement('img');
     var left1 = Math.floor(Math.random() * (window.screen.width - 60));
-    eggImg.setAttribute('src', 'images.jpg');
+    eggImg.setAttribute('src', 'images%20(1).jpg');
     eggImg.style.height = '43px';
     eggImg.style.width = '32px';
     eggImg.setAttribute('class', 'egg');
@@ -100,6 +100,7 @@ function importedEgg(){
         }
     })
 }
+importedEgg();
 function scoreUpdate() {
     score = score + 10;
     scoreDiv.innerHTML = "Score: " + score;
