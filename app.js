@@ -105,7 +105,7 @@ importedEgg();
 setInterval(importedEgg , 3000);
 
 function importedEgg2() {
-    var impEgg = document.getElementById('impEgg2');
+    var impEgg2 = document.getElementById('impEgg2');
     var eggImg = document.createElement('img');
     var left1 = Math.floor(Math.random() * (window.screen.width - 60));
     eggImg.setAttribute('src', 'images%20(1).jpg');
@@ -113,7 +113,7 @@ function importedEgg2() {
     eggImg.style.width = '40px';
     eggImg.style.transform = 'rotate(17deg)';
     eggImg.setAttribute('class', 'egg');
-    impEgg.appendChild(eggImg);
+    impEgg2.appendChild(eggImg);
     var top = 0;
     var i = setInterval(function () {
         if (top <= (window.screen.height - 180)) {
