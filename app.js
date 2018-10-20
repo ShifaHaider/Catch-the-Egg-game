@@ -103,6 +103,35 @@ function importedEgg() {
 }
 importedEgg();
 setInterval(importedEgg , 3000);
+function importedEgg() {
+    var impEgg = document.getElementById('impEgg');
+    var eggImg = document.createElement('img');
+    var left1 = Math.floor(Math.random() * (window.screen.width - 60));
+    eggImg.setAttribute('src', 'images%20(1).jpg');
+    eggImg.style.height = '60px';
+    eggImg.style.width = '60px';
+    eggImg.setAttribute('class', 'egg');
+    impEgg.appendChild(eggImg);
+    var top = 0;
+    var i = setInterval(function () {
+        if (top <= (window.screen.height - 180)) {
+            top = top + 2;
+            eggImg.style.top = top++ + 'px';
+            eggImg.style.left = left1 + 'px';
+        }
+        else {
+            if (eggImg.style.left >= basket.style.left && eggImg.style.left <= (left + 150 + 'px')) {
+                score = score + 50;
+                scoreDiv.innerHTML = "Score: " + score;
+            }
+                clearInterval(i);
+                impEgg.removeChild(eggImg);
+            //top = 0;
+        }
+    })
+}
+importedEgg();
+setInterval(importedEgg , 3000);
 function scoreUpdate() {
     score = score + 10;
     scoreDiv.innerHTML = "Score: " + score;
