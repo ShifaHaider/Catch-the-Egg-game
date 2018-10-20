@@ -83,6 +83,22 @@ function importedEgg(){
     eggImg.style.width = '32px';
     eggImg.setAttribute('class', 'egg');
     impEgg.appendChild(eggImg);
+    var top = 0;
+    var i = setInterval(function(){
+        if (top <= (window.screen.height - 180)) {
+            top = top + 2;
+            eggImg.style.top = top++ + 'px';
+            eggImg.style.left = left1 + 'px';
+        }
+        else {
+            //if (eggImg.style.left >= basket.style.left && eggImg.style.left <= (left + 150 + 'px')) {
+            //    scoreUpdate();
+                clearInterval(i);
+                impEgg.removeChild(eggImg);
+            //}
+            top = 0;
+        }
+    })
 }
 function scoreUpdate() {
     score = score + 10;
