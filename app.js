@@ -75,14 +75,14 @@ setInterval(simpleEgg, 3000);
 
 
 function importedEgg(){
-    var egg1 = document.getElementById('impEgg');
+    var impEgg = document.getElementById('impEgg');
     var eggImg = document.createElement('img');
     var left1 = Math.floor(Math.random() * (window.screen.width - 60));
     eggImg.setAttribute('src', 'egg2.png');
     eggImg.style.height = '43px';
     eggImg.style.width = '32px';
     eggImg.setAttribute('class', 'egg');
-    egg1.appendChild(eggImg);
+    impEgg.appendChild(eggImg);
 }
 function scoreUpdate() {
     score = score + 10;
