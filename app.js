@@ -100,7 +100,7 @@ function importedEgg() {
             //top = 0;
         }
     })
-}
+
 importedEgg();
 setInterval(importedEgg , 3000);
 function scoreUpdate() {
