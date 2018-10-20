@@ -101,7 +101,7 @@ function importedEgg(){
     })
 }
 importedEgg();
-//setInterval(importedEgg , 3000);
+setInterval(importedEgg , 3000);
 function scoreUpdate() {
     score = score + 10;
     scoreDiv.innerHTML = "Score: " + score;
