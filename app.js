@@ -68,7 +68,7 @@ function simpleEgg() {
             }
             top = 0;
         }
-    });
+    }, 10);
 }
 simpleEgg();
 setInterval(simpleEgg, 3000);
