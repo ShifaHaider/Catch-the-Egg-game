@@ -63,9 +63,10 @@ function simpleEgg() {
         else {
             if (eggImg.style.left >= basket.style.left && eggImg.style.left <= (left + 150 + 'px')) {
                 scoreUpdate();
-            }
             clearInterval(a);
             egg1.removeChild(eggImg);
+            }
+            top = 0;
         }
     }, 10);
 }
@@ -93,15 +94,15 @@ function importedEgg() {
             if (eggImg.style.left >= basket.style.left && eggImg.style.left <= (left + 150 + 'px')) {
                 score = score + 50;
                 scoreDiv.innerHTML = "Score: " + score;
+            }
                 clearInterval(i);
                 impEgg.removeChild(eggImg);
-            }
             //top = 0;
         }
     })
 }
 importedEgg();
-//setInterval(importedEgg , 3000);
+setInterval(importedEgg , 3000);
 function scoreUpdate() {
     score = score + 10;
     scoreDiv.innerHTML = "Score: " + score;
