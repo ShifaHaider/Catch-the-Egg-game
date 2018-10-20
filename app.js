@@ -103,8 +103,9 @@ function importedEgg() {
 }
 importedEgg();
 setInterval(importedEgg , 3000);
-function importedEgg() {
-    var impEgg = document.getElementById('impEgg');
+
+function importedEgg2() {
+    var impEgg = document.getElementById('impEgg2');
     var eggImg = document.createElement('img');
     var left1 = Math.floor(Math.random() * (window.screen.width - 60));
     eggImg.setAttribute('src', 'images%20(1).jpg');
