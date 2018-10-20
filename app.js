@@ -88,7 +88,7 @@ function importedEgg() {
         if (top <= (window.screen.height - 180)) {
             top = top + 2;
             eggImg.style.top = top++ + 'px';
-            //eggImg.style.left = left1 + 'px';
+            eggImg.style.left = left1 + 'px';
         }
         else {
             if (eggImg.style.left >= basket.style.left && eggImg.style.left <= (left + 150 + 'px')) {
