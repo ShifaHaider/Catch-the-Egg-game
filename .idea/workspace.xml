@@ -24,13 +24,14 @@
       <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6375">
-              <caret line="71" column="1" selection-start-line="71" selection-start-column="1" selection-end-line="71" selection-end-column="1" />
+            <state vertical-scroll-proportion="0.7046875">
+              <caret line="77" column="46" selection-start-line="77" selection-start-column="46" selection-end-line="77" selection-end-column="46" />
               <folding>
                 <element signature="n#!!block;n#moveBasket#0" expanded="false" />
                 <element signature="n#!!block;n#leftMove#0" expanded="false" />
                 <element signature="n#!!block;n#rightMove#0" expanded="false" />
-                <element signature="n#!!block;n#simpleEgg#0" expanded="false" />
+                <element signature="e#779#902#0" expanded="false" />
+                <element signature="n#!!block;n#scoreUpdate#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -39,24 +40,10 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.6538463">
-              <caret line="24" column="21" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
+            <state vertical-scroll-proportion="-15.115385">
+              <caret line="41" column="23" selection-start-line="41" selection-start-column="23" selection-end-line="41" selection-end-column="23" />
               <folding />
             </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="images (1).jpg" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/images (1).jpg">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="images.jpg" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/images.jpg">
-          <provider selected="true" editor-type-id="images">
-            <state />
           </provider>
         </entry>
       </file>
@@ -248,7 +235,8 @@
             <element signature="n#!!block;n#moveBasket#0" expanded="false" />
             <element signature="n#!!block;n#leftMove#0" expanded="false" />
             <element signature="n#!!block;n#rightMove#0" expanded="false" />
-            <element signature="n#!!block;n#simpleEgg#0" expanded="false" />
+            <element signature="e#779#902#0" expanded="false" />
+            <element signature="n#!!block;n#scoreUpdate#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -277,7 +265,8 @@
             <element signature="n#!!block;n#moveBasket#0" expanded="false" />
             <element signature="n#!!block;n#leftMove#0" expanded="false" />
             <element signature="n#!!block;n#rightMove#0" expanded="false" />
-            <element signature="n#!!block;n#simpleEgg#0" expanded="false" />
+            <element signature="e#779#902#0" expanded="false" />
+            <element signature="n#!!block;n#scoreUpdate#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -290,7 +279,8 @@
             <element signature="n#!!block;n#moveBasket#0" expanded="false" />
             <element signature="n#!!block;n#leftMove#0" expanded="false" />
             <element signature="n#!!block;n#rightMove#0" expanded="false" />
-            <element signature="n#!!block;n#simpleEgg#0" expanded="false" />
+            <element signature="e#779#902#0" expanded="false" />
+            <element signature="n#!!block;n#scoreUpdate#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -340,21 +330,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.6538463">
-          <caret line="24" column="21" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
+        <state vertical-scroll-proportion="-15.115385">
+          <caret line="41" column="23" selection-start-line="41" selection-start-column="23" selection-end-line="41" selection-end-column="23" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6375">
-          <caret line="71" column="1" selection-start-line="71" selection-start-column="1" selection-end-line="71" selection-end-column="1" />
+        <state vertical-scroll-proportion="0.7046875">
+          <caret line="77" column="46" selection-start-line="77" selection-start-column="46" selection-end-line="77" selection-end-column="46" />
           <folding>
             <element signature="n#!!block;n#moveBasket#0" expanded="false" />
             <element signature="n#!!block;n#leftMove#0" expanded="false" />
             <element signature="n#!!block;n#rightMove#0" expanded="false" />
-            <element signature="n#!!block;n#simpleEgg#0" expanded="false" />
+            <element signature="e#779#902#0" expanded="false" />
+            <element signature="n#!!block;n#scoreUpdate#0" expanded="false" />
           </folding>
         </state>
       </provider>

@@ -10,7 +10,7 @@ var clientX;
 function moveBasket(e) {
     e = e || window.event;
     if (e.keyCode == '37') {
-       leftMove()
+        leftMove()
     }
     else if (e.keyCode == '39') {
         rightMove();
@@ -36,10 +36,10 @@ function rightMove() {
 
 window.addEventListener('mousemove', function (e) {
     if (e.clientX < clientX) {
-       leftMove();
+        leftMove();
     }
     else {
-       rightMove();
+        rightMove();
     }
     clientX = e.clientX;
 });
@@ -73,6 +73,17 @@ function simpleEgg() {
 simpleEgg();
 setInterval(simpleEgg, 3000);
 
+
+function importedEgg(){
+    var egg1 = document.getElementById('impEgg');
+    var eggImg = document.createElement('img');
+    var left1 = Math.floor(Math.random() * (window.screen.width - 60));
+    eggImg.setAttribute('src', 'egg2.png');
+    eggImg.style.height = '43px';
+    eggImg.style.width = '32px';
+    eggImg.setAttribute('class', 'egg');
+    egg1.appendChild(eggImg);
+}
 function scoreUpdate() {
     score = score + 10;
     scoreDiv.innerHTML = "Score: " + score;
