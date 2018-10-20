@@ -127,7 +127,7 @@ function importedEgg2() {
                 scoreDiv.innerHTML = "Score: " + score;
             }
                 clearInterval(i);
-                impEgg.removeChild(eggImg);
+                impEgg2.removeChild(eggImg);
             //top = 0;
         }
     })
