@@ -91,11 +91,12 @@ function importedEgg(){
             eggImg.style.left = left1 + 'px';
         }
         else {
-            //if (eggImg.style.left >= basket.style.left && eggImg.style.left <= (left + 150 + 'px')) {
-            //    scoreUpdate();
+            if (eggImg.style.left >= basket.style.left && eggImg.style.left <= (left + 150 + 'px')) {
+                score = score + 50;
+                scoreDiv.innerHTML = "Score: " + score;
                 clearInterval(i);
                 impEgg.removeChild(eggImg);
-            //}
+            }
             top = 0;
         }
     })
