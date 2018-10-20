@@ -109,8 +109,9 @@ function importedEgg2() {
     var eggImg = document.createElement('img');
     var left1 = Math.floor(Math.random() * (window.screen.width - 60));
     eggImg.setAttribute('src', 'images%20(1).jpg');
-    eggImg.style.height = '60px';
-    eggImg.style.width = '60px';
+    eggImg.style.height = '45px';
+    eggImg.style.width = '40px';
+    eggImg.style.transform = 'rotate(17deg)';
     eggImg.setAttribute('class', 'egg');
     impEgg.appendChild(eggImg);
     var top = 0;
