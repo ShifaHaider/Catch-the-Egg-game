@@ -132,8 +132,8 @@ function importedEgg2() {
         }
     })
 }
-importedEgg();
-setInterval(importedEgg , 3000);
+importedEgg2();
+setInterval(importedEgg2 , 3000);
 function scoreUpdate() {
     score = score + 10;
     scoreDiv.innerHTML = "Score: " + score;
