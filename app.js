@@ -63,10 +63,9 @@ function simpleEgg() {
         else {
             if (eggImg.style.left >= basket.style.left && eggImg.style.left <= (left + 150 + 'px')) {
                 scoreUpdate();
-                clearInterval(a);
-                egg1.removeChild(eggImg);
             }
-            top = 0;
+            clearInterval(a);
+            egg1.removeChild(eggImg);
         }
     }, 10);
 }
@@ -74,7 +73,7 @@ simpleEgg();
 setInterval(simpleEgg, 3000);
 
 
-function importedEgg(){
+function importedEgg() {
     var impEgg = document.getElementById('impEgg');
     var eggImg = document.createElement('img');
     var left1 = Math.floor(Math.random() * (window.screen.width - 60));
@@ -84,11 +83,11 @@ function importedEgg(){
     eggImg.setAttribute('class', 'egg');
     impEgg.appendChild(eggImg);
     var top = 0;
-    var i = setInterval(function(){
+    var i = setInterval(function () {
         if (top <= (window.screen.height - 180)) {
             top = top + 2;
             eggImg.style.top = top++ + 'px';
-            eggImg.style.left = left1 + 'px';
+            //eggImg.style.left = left1 + 'px';
         }
         else {
             if (eggImg.style.left >= basket.style.left && eggImg.style.left <= (left + 150 + 'px')) {
@@ -97,7 +96,7 @@ function importedEgg(){
                 clearInterval(i);
                 impEgg.removeChild(eggImg);
             }
-            top = 0;
+            //top = 0;
         }
     })
 }
