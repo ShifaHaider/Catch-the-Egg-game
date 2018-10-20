@@ -108,7 +108,7 @@ function importedEgg2() {
     var impEgg2 = document.getElementById('impEgg2');
     var eggImg = document.createElement('img');
     var left1 = Math.floor(Math.random() * (window.screen.width - 60));
-    eggImg.setAttribute('src', 'images%20(1).jpg');
+    eggImg.setAttribute('src', 'images.jpg');
     eggImg.style.height = '45px';
     eggImg.style.width = '40px';
     eggImg.style.transform = 'rotate(17deg)';
@@ -128,11 +128,11 @@ function importedEgg2() {
             }
                 clearInterval(i);
                 impEgg2.removeChild(eggImg);
-            //top = 0;
+
         }
     })
 }
-importedEgg2();
+//importedEgg2();
 //setInterval(importedEgg2 , 3000);
 function scoreUpdate() {
     score = score + 10;
