@@ -16,12 +16,14 @@ function moveBasket(e) {
         rightMove();
     }
 }
+
 function leftMove() {
     if (left >= 0) {
         left = left - 10;
         basket.style.left = left + 'px';
     }
 }
+
 function rightMove() {
     if (left <= (document.body.clientWidth - 150)) {
         left = left + 10;
@@ -32,7 +34,6 @@ function rightMove() {
     }
     basket.style.left = left + 'px';
 }
-
 
 window.addEventListener('mousemove', function (e) {
     if (e.clientX < clientX) {
@@ -73,8 +74,7 @@ function simpleEgg() {
 simpleEgg();
 setInterval(simpleEgg, 3000);
 
-
-function importedEgg() {
+function redEgg() {
     var impEgg = document.getElementById('impEgg');
     var eggImg = document.createElement('img');
     var left1 = Math.floor(Math.random() * (window.screen.width - 60));
@@ -101,10 +101,10 @@ function importedEgg() {
         }
     })
 }
-//importedEgg();
-//setInterval(importedEgg, 3000);
+redEgg();
+setInterval(redEgg, 3000);
 
-function importedEgg2() {
+function goldenEgg() {
     var impEgg2 = document.getElementById('impEgg2');
     var eggImg = document.createElement('img');
     var left1 = Math.floor(Math.random() * (window.screen.width - 60));
@@ -127,12 +127,12 @@ function importedEgg2() {
             }
             clearInterval(i);
             impEgg2.removeChild(eggImg);
-            importedEgg();
+            redEgg();
         }
     })
 }
-//importedEgg2();
-setInterval(importedEgg2 , 3000);
+//goldenEgg();
+setInterval(goldenEgg , 3000);
 function scoreUpdate() {
     score = score + 10;
     scoreDiv.innerHTML = "Score: " + score;

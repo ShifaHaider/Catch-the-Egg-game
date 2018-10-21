@@ -24,14 +24,15 @@
       <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.821875">
-              <caret line="88" column="25" selection-start-line="88" selection-start-column="25" selection-end-line="88" selection-end-column="25" />
+            <state vertical-scroll-proportion="1.309375">
+              <caret line="132" column="1" selection-start-line="132" selection-start-column="1" selection-end-line="132" selection-end-column="1" />
               <folding>
                 <element signature="n#!!block;n#moveBasket#0" expanded="false" />
                 <element signature="n#!!block;n#leftMove#0" expanded="false" />
                 <element signature="n#!!block;n#rightMove#0" expanded="false" />
-                <element signature="e#779#902#0" expanded="false" />
+                <element signature="e#780#903#0" expanded="false" />
                 <element signature="n#!!block;n#simpleEgg#0" expanded="false" />
+                <element signature="n#!!block;n#redEgg#0" expanded="false" />
                 <element signature="n#!!block;n#scoreUpdate#0" expanded="false" />
               </folding>
             </state>
@@ -45,6 +46,13 @@
               <caret line="27" column="25" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
               <folding />
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="gold_egg_medium.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gold_egg_medium.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
           </provider>
         </entry>
       </file>
@@ -191,7 +199,7 @@
     <frame x="-8" y="-8" width="1296" height="776" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.11796875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17734376" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32934132" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -236,8 +244,9 @@
             <element signature="n#!!block;n#moveBasket#0" expanded="false" />
             <element signature="n#!!block;n#leftMove#0" expanded="false" />
             <element signature="n#!!block;n#rightMove#0" expanded="false" />
-            <element signature="e#779#902#0" expanded="false" />
+            <element signature="e#780#903#0" expanded="false" />
             <element signature="n#!!block;n#simpleEgg#0" expanded="false" />
+            <element signature="n#!!block;n#redEgg#0" expanded="false" />
             <element signature="n#!!block;n#scoreUpdate#0" expanded="false" />
           </folding>
         </state>
@@ -259,8 +268,9 @@
             <element signature="n#!!block;n#moveBasket#0" expanded="false" />
             <element signature="n#!!block;n#leftMove#0" expanded="false" />
             <element signature="n#!!block;n#rightMove#0" expanded="false" />
-            <element signature="e#779#902#0" expanded="false" />
+            <element signature="e#780#903#0" expanded="false" />
             <element signature="n#!!block;n#simpleEgg#0" expanded="false" />
+            <element signature="n#!!block;n#redEgg#0" expanded="false" />
             <element signature="n#!!block;n#scoreUpdate#0" expanded="false" />
           </folding>
         </state>
@@ -290,8 +300,9 @@
             <element signature="n#!!block;n#moveBasket#0" expanded="false" />
             <element signature="n#!!block;n#leftMove#0" expanded="false" />
             <element signature="n#!!block;n#rightMove#0" expanded="false" />
-            <element signature="e#779#902#0" expanded="false" />
+            <element signature="e#780#903#0" expanded="false" />
             <element signature="n#!!block;n#simpleEgg#0" expanded="false" />
+            <element signature="n#!!block;n#redEgg#0" expanded="false" />
             <element signature="n#!!block;n#scoreUpdate#0" expanded="false" />
           </folding>
         </state>
@@ -305,8 +316,9 @@
             <element signature="n#!!block;n#moveBasket#0" expanded="false" />
             <element signature="n#!!block;n#leftMove#0" expanded="false" />
             <element signature="n#!!block;n#rightMove#0" expanded="false" />
-            <element signature="e#779#902#0" expanded="false" />
+            <element signature="e#780#903#0" expanded="false" />
             <element signature="n#!!block;n#simpleEgg#0" expanded="false" />
+            <element signature="n#!!block;n#redEgg#0" expanded="false" />
             <element signature="n#!!block;n#scoreUpdate#0" expanded="false" />
           </folding>
         </state>
@@ -345,17 +357,17 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gold_egg_medium.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/impEgg.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/images.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gold_egg_medium.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
@@ -370,14 +382,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.821875">
-          <caret line="88" column="25" selection-start-line="88" selection-start-column="25" selection-end-line="88" selection-end-column="25" />
+        <state vertical-scroll-proportion="1.309375">
+          <caret line="132" column="1" selection-start-line="132" selection-start-column="1" selection-end-line="132" selection-end-column="1" />
           <folding>
             <element signature="n#!!block;n#moveBasket#0" expanded="false" />
             <element signature="n#!!block;n#leftMove#0" expanded="false" />
             <element signature="n#!!block;n#rightMove#0" expanded="false" />
-            <element signature="e#779#902#0" expanded="false" />
+            <element signature="e#780#903#0" expanded="false" />
             <element signature="n#!!block;n#simpleEgg#0" expanded="false" />
+            <element signature="n#!!block;n#redEgg#0" expanded="false" />
             <element signature="n#!!block;n#scoreUpdate#0" expanded="false" />
           </folding>
         </state>
