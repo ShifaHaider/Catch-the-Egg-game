@@ -108,9 +108,9 @@ function importedEgg2() {
     var impEgg2 = document.getElementById('impEgg2');
     var eggImg = document.createElement('img');
     var left1 = Math.floor(Math.random() * (window.screen.width - 60));
-    eggImg.setAttribute('src', 'images.jpg');
-    eggImg.style.height = '45px';
-    eggImg.style.width = '40px';
+    eggImg.setAttribute('src', 'gold_egg_medium.png');
+    eggImg.style.height = '50px';
+    eggImg.style.width = '45px';
     eggImg.style.transform = 'rotate(17deg)';
     eggImg.setAttribute('class', 'egg');
     impEgg2.appendChild(eggImg);
@@ -131,8 +131,8 @@ function importedEgg2() {
         }
     })
 }
-//importedEgg2();
-//setInterval(importedEgg2 , 3000);
+importedEgg2();
+setInterval(importedEgg2 , 3000);
 function scoreUpdate() {
     score = score + 10;
     scoreDiv.innerHTML = "Score: " + score;
