@@ -122,7 +122,7 @@ function importedEgg2() {
         }
         else {
             if (eggImg.style.left >= basket.style.left && eggImg.style.left <= (left + 150 + 'px')) {
-                score = score + 50;
+                score = score + 30;
                 scoreDiv.innerHTML = "Score: " + score;
             }
             clearInterval(i);
