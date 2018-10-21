@@ -97,7 +97,6 @@ function importedEgg() {
             }
             clearInterval(i);
             impEgg.removeChild(eggImg);
-            //top = 0;
         }
     })
 }
