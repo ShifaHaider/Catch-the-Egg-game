@@ -109,7 +109,7 @@ function goldenEgg() {
     var eggImg = document.createElement('img');
     var left1 = Math.floor(Math.random() * (window.screen.width - 60));
     eggImg.setAttribute('src', 'gold_egg_medium.png');
-    //eggImg.style.height = '50px';
+    eggImg.style.height = '50px';
     eggImg.style.width = '45px';
     eggImg.setAttribute('class', 'egg');
     impEgg2.appendChild(eggImg);
