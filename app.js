@@ -111,7 +111,7 @@ function importedEgg2() {
     eggImg.setAttribute('src', 'gold_egg_medium.png');
     eggImg.style.height = '50px';
     eggImg.style.width = '45px';
-    eggImg.style.transform = 'rotate(17deg)';
+    //eggImg.style.transform = 'rotate(17deg)';
     eggImg.setAttribute('class', 'egg');
     impEgg2.appendChild(eggImg);
     var top = 0;
