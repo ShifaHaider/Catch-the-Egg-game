@@ -101,7 +101,7 @@ function importedEgg() {
         }
     })
 }
-importedEgg();
+//importedEgg();
 //setInterval(importedEgg, 3000);
 
 function importedEgg2() {
