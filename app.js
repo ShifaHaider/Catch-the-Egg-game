@@ -86,7 +86,7 @@ function importedEgg() {
     var top = 0;
     var i = setInterval(function () {
         if (top <= (window.screen.height - 160)) {
-            top = top + 2;
+            top = top + 4;
             eggImg.style.top = top++ + 'px';
             eggImg.style.left = left1 + 'px';
         }
@@ -116,7 +116,7 @@ function importedEgg2() {
     var top = 0;
     var i = setInterval(function () {
         if (top <= (window.screen.height - 160)) {
-            top = top + 2;
+            top = top + 3;
             eggImg.style.top = top++ + 'px';
             eggImg.style.left = left1 + 'px';
         }
