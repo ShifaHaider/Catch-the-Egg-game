@@ -24,8 +24,8 @@
       <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6796875">
-              <caret line="76" column="23" selection-start-line="76" selection-start-column="23" selection-end-line="76" selection-end-column="23" />
+            <state vertical-scroll-proportion="0.621875">
+              <caret line="130" column="9" selection-start-line="130" selection-start-column="9" selection-end-line="130" selection-end-column="9" />
               <folding>
                 <element signature="n#!!block;n#moveBasket#0" expanded="false" />
                 <element signature="n#!!block;n#leftMove#0" expanded="false" />
@@ -33,7 +33,6 @@
                 <element signature="e#779#902#0" expanded="false" />
                 <element signature="n#!!block;n#simpleEgg#0" expanded="false" />
                 <element signature="n#!!block;n#importedEgg#0" expanded="false" />
-                <element signature="n#!!block;n#importedEgg2#0" expanded="false" />
                 <element signature="n#!!block;n#scoreUpdate#0" expanded="false" />
               </folding>
             </state>
@@ -241,7 +240,6 @@
             <element signature="e#779#902#0" expanded="false" />
             <element signature="n#!!block;n#simpleEgg#0" expanded="false" />
             <element signature="n#!!block;n#importedEgg#0" expanded="false" />
-            <element signature="n#!!block;n#importedEgg2#0" expanded="false" />
             <element signature="n#!!block;n#scoreUpdate#0" expanded="false" />
           </folding>
         </state>
@@ -266,7 +264,6 @@
             <element signature="e#779#902#0" expanded="false" />
             <element signature="n#!!block;n#simpleEgg#0" expanded="false" />
             <element signature="n#!!block;n#importedEgg#0" expanded="false" />
-            <element signature="n#!!block;n#importedEgg2#0" expanded="false" />
             <element signature="n#!!block;n#scoreUpdate#0" expanded="false" />
           </folding>
         </state>
@@ -299,7 +296,6 @@
             <element signature="e#779#902#0" expanded="false" />
             <element signature="n#!!block;n#simpleEgg#0" expanded="false" />
             <element signature="n#!!block;n#importedEgg#0" expanded="false" />
-            <element signature="n#!!block;n#importedEgg2#0" expanded="false" />
             <element signature="n#!!block;n#scoreUpdate#0" expanded="false" />
           </folding>
         </state>
@@ -316,7 +312,6 @@
             <element signature="e#779#902#0" expanded="false" />
             <element signature="n#!!block;n#simpleEgg#0" expanded="false" />
             <element signature="n#!!block;n#importedEgg#0" expanded="false" />
-            <element signature="n#!!block;n#importedEgg2#0" expanded="false" />
             <element signature="n#!!block;n#scoreUpdate#0" expanded="false" />
           </folding>
         </state>
@@ -380,8 +375,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6796875">
-          <caret line="76" column="23" selection-start-line="76" selection-start-column="23" selection-end-line="76" selection-end-column="23" />
+        <state vertical-scroll-proportion="0.621875">
+          <caret line="130" column="9" selection-start-line="130" selection-start-column="9" selection-end-line="130" selection-end-column="9" />
           <folding>
             <element signature="n#!!block;n#moveBasket#0" expanded="false" />
             <element signature="n#!!block;n#leftMove#0" expanded="false" />
@@ -389,7 +384,6 @@
             <element signature="e#779#902#0" expanded="false" />
             <element signature="n#!!block;n#simpleEgg#0" expanded="false" />
             <element signature="n#!!block;n#importedEgg#0" expanded="false" />
-            <element signature="n#!!block;n#importedEgg2#0" expanded="false" />
             <element signature="n#!!block;n#scoreUpdate#0" expanded="false" />
           </folding>
         </state>

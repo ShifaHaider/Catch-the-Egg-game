@@ -95,13 +95,14 @@ function importedEgg() {
                 score = score + 100;
                 scoreDiv.innerHTML = "Score: " + score;
             }
+
             clearInterval(i);
             impEgg.removeChild(eggImg);
         }
     })
 }
 importedEgg();
-setInterval(importedEgg, 3000);
+//setInterval(importedEgg, 3000);
 
 function importedEgg2() {
     var impEgg2 = document.getElementById('impEgg2');
@@ -126,6 +127,7 @@ function importedEgg2() {
             }
             clearInterval(i);
             impEgg2.removeChild(eggImg);
+            importedEgg();
         }
     })
 }
