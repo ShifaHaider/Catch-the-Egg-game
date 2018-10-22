@@ -93,10 +93,10 @@ function redEgg() {
     impEgg.appendChild(redEgg);
     var top = 0;
     var i = setInterval(function () {
-        if (top <= (window.screen.height - 160)) {
-            top = top + 4;
             redEgg.style.top = top++ + 'px';
             redEgg.style.left = left1 + 'px';
+        if (top <= (window.screen.height - 160)) {
+            top = top + 4;
         }
         else {
             if (redEgg.style.left >= basket.style.left && redEgg.style.left <= (left + 150 + 'px')) {
