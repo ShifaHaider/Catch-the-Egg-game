@@ -110,7 +110,7 @@ function redEgg() {
         }
     })
 }
-
+'sadasd'
 function goldenEgg() {
     var impEgg2 = document.getElementById('impEgg2');
     var goldenEgg = document.createElement('img');
