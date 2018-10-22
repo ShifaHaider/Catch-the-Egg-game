@@ -79,16 +79,7 @@ function simpleEgg() {
         }
 
 
-        //console.log(Number(eggImg.style.top.replace('px', '')) , (document.body.clientHeight - 100));
-        //if (top > (document.body.clientHeight - 100)) {
-        //    if (eggImg.style.left > basket.style.left && Number(eggImg.style.left.replace('px', '')) < (left + 150 )) {
-        //        console.log('Hello', score);
-        //        //clearInterval(a);
-        //        egg1.removeChild(eggImg);
-        //        score = score + 10;
-        //        scoreDiv.innerHTML = "Score: " + score;
-        //    }
-        //}
+       
     }, 10);
 }
 simpleEgg();
@@ -122,8 +113,7 @@ function redEgg() {
         }
     })
 }
-//redEgg();
-//setInterval(redEgg, 3000);
+
 
 function goldenEgg() {
     var impEgg2 = document.getElementById('impEgg2');

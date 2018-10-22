@@ -34,11 +34,10 @@
       <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.45">
-              <caret line="69" column="22" selection-start-line="69" selection-start-column="22" selection-end-line="69" selection-end-column="22" />
+            <state vertical-scroll-proportion="0.278125">
+              <caret line="81" column="7" selection-start-line="81" selection-start-column="7" selection-end-line="81" selection-end-column="7" />
               <folding>
                 <element signature="e#848#971#0" expanded="false" />
-                <element signature="e#2282#2377#0" expanded="false" />
                 <element signature="n#!!block;n#redEgg#0" expanded="false" />
                 <element signature="n#!!block;n#goldenEgg#0" expanded="false" />
               </folding>
@@ -233,7 +232,6 @@
           <caret line="106" column="21" selection-start-line="106" selection-start-column="21" selection-end-line="106" selection-end-column="21" />
           <folding>
             <element signature="e#848#971#0" expanded="false" />
-            <element signature="e#2282#2377#0" expanded="false" />
             <element signature="n#!!block;n#redEgg#0" expanded="false" />
             <element signature="n#!!block;n#goldenEgg#0" expanded="false" />
           </folding>
@@ -254,7 +252,6 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#848#971#0" expanded="false" />
-            <element signature="e#2282#2377#0" expanded="false" />
             <element signature="n#!!block;n#redEgg#0" expanded="false" />
             <element signature="n#!!block;n#goldenEgg#0" expanded="false" />
           </folding>
@@ -275,7 +272,6 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#848#971#0" expanded="false" />
-            <element signature="e#2282#2377#0" expanded="false" />
             <element signature="n#!!block;n#redEgg#0" expanded="false" />
             <element signature="n#!!block;n#goldenEgg#0" expanded="false" />
           </folding>
@@ -304,7 +300,6 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#848#971#0" expanded="false" />
-            <element signature="e#2282#2377#0" expanded="false" />
             <element signature="n#!!block;n#redEgg#0" expanded="false" />
             <element signature="n#!!block;n#goldenEgg#0" expanded="false" />
           </folding>
@@ -317,7 +312,6 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#848#971#0" expanded="false" />
-            <element signature="e#2282#2377#0" expanded="false" />
             <element signature="n#!!block;n#redEgg#0" expanded="false" />
             <element signature="n#!!block;n#goldenEgg#0" expanded="false" />
           </folding>
@@ -382,11 +376,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.45">
-          <caret line="69" column="22" selection-start-line="69" selection-start-column="22" selection-end-line="69" selection-end-column="22" />
+        <state vertical-scroll-proportion="0.278125">
+          <caret line="81" column="7" selection-start-line="81" selection-start-column="7" selection-end-line="81" selection-end-column="7" />
           <folding>
             <element signature="e#848#971#0" expanded="false" />
-            <element signature="e#2282#2377#0" expanded="false" />
             <element signature="n#!!block;n#redEgg#0" expanded="false" />
             <element signature="n#!!block;n#goldenEgg#0" expanded="false" />
           </folding>
