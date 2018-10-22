@@ -59,7 +59,7 @@ function simpleEgg() {
         eggImg.style.left = left1 + 'px';
         if (top === (document.body.clientHeight - 100)) {
             var eggLeft = Number(eggImg.style.left.replace('px', '')) + 22;
-            if (eggImg.style.left > basket.style.left && Number(eggImg.style.left.replace('px', '')) < (left + 150 )) {
+            if (eggImg.style.left > basket.style.left && eggLeft < (left + 150 )) {
                 score = score + 10;
                 scoreDiv.innerHTML = "Score: " + score;
                 clearInterval(a);
@@ -70,8 +70,8 @@ function simpleEgg() {
             wastEggs++;
            wasteEgg.innerHTML = 'WasteEggs: ' + wastEggs;
             if (wastEggs === 10) {
-                alert('Game over!!');
-                window.location.reload();
+                //alert('Game over!!');
+                //window.location.reload();
             }
             clearInterval(a);
             egg1.removeChild(eggImg);
