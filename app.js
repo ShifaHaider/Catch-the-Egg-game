@@ -79,7 +79,7 @@ function simpleEgg() {
         }
 
 
-       
+
     }, 10);
 }
 simpleEgg();
@@ -114,7 +114,6 @@ function redEgg() {
     })
 }
 
-
 function goldenEgg() {
     var impEgg2 = document.getElementById('impEgg2');
     var goldenEgg = document.createElement('img');
@@ -142,8 +141,7 @@ function goldenEgg() {
         }
     })
 }
-//goldenEgg();
-//setInterval(goldenEgg , 3000);
+
 function scoreUpdate() {
     score = score + 10;
     scoreDiv.innerHTML = "Score: " + score;
