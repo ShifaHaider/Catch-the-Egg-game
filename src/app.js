@@ -102,7 +102,6 @@ function redEgg() {
             if (redEgg.style.left >= basket.style.left && redEgg.style.left <= (left + 150 + 'px')) {
                 //score = score + 100;
                 //scoreDiv.innerHTML = "Score: " + score;
-                scoreUpdate();
             }
 
             clearInterval(i);
