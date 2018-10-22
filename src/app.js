@@ -110,7 +110,7 @@ function redEgg() {
         }
     })
 }
-
+'DAS'
 redEgg();
 setInterval(redEgg, 6000);
 
