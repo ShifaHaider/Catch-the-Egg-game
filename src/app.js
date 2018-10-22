@@ -58,7 +58,7 @@ function simpleEgg() {
         eggImg.style.top = top++ + 'px';
         eggImg.style.left = left1 + 'px';
         if (top === (document.body.clientHeight - 110)) {
-            var eggLeft = Number(eggImg.style.left.replace('px', '')) + 22;
+            var eggLeft = Number(eggImg.style.left.replace('px', ''));
             if (eggImg.style.left > basket.style.left && eggLeft < (left + 150 )) {
                 score = score + 10;
                 scoreDiv.innerHTML = "Score: " + score;
@@ -72,8 +72,8 @@ function simpleEgg() {
             wastEggs++;
             wasteEgg.innerHTML = 'WasteEggs: ' + wastEggs;
             if (wastEggs === 10) {
-                alert('Game over!!');
-                window.location.reload();
+                //alert('Game over!!');
+                //window.location.reload();
             }
         }
     }, 10);
@@ -96,12 +96,12 @@ function redEgg() {
         redEgg.style.top = top++ + 'px';
         redEgg.style.left = left1 + 'px';
         if (top === (document.body.clientHeight - 110)) {
-            var eggLeft = Number(redEgg.style.left.replace('px', '')) + 22;
+            var eggLeft = Number(redEgg.style.left.replace('px', '')) + 20;
             if (redEgg.style.left > basket.style.left && eggLeft < (left + 150 )) {
-                score = score + 100;
+                score = score + 50;
                 scoreDiv.innerHTML = "Score: " + score;
                 clearInterval(i);
-                impDiv.removeChild(impDiv);
+                impDiv.removeChild(redEgg);
             }
         }
         if (top === document.body.clientHeight) {
@@ -112,6 +112,8 @@ function redEgg() {
 }
 
 redEgg();
+setInterval(redEgg, 6000);
+
 function goldenEgg() {
     var impEgg2 = document.getElementById('impEgg2');
     var goldenEgg = document.createElement('img');
