@@ -45,7 +45,7 @@ window.addEventListener('mousemove', function (e) {
 });
 
 function simpleEgg() {
-    //var egg1 = document.getElementById('egg1');
+    var egg1 = document.getElementById('egg1');
     var eggImg = document.createElement('img');
     var left1 = Math.floor(Math.random() * (window.screen.width - 60));
     eggImg.setAttribute('src', 'egg2.png');
