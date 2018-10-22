@@ -73,8 +73,8 @@ function simpleEgg() {
             wastEggs++;
             wasteEgg.innerHTML = 'WasteEggs: ' + wastEggs;
             if (wastEggs === 10) {
-                alert('Game over!!');
-                window.location.reload();
+                //alert('Game over!!');
+                //window.location.reload();
             }
         }
     }, 10);
