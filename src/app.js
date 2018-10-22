@@ -116,8 +116,8 @@ redEgg();
 setInterval(redEgg, 6000);
 
 function goldenEgg() {
-    //var impEgg2 = document.getElementById('impEgg2');
-    var goldenEgg = document.createElement('img');
+    var impEgg2 = document.getElementById('impEgg2');
+    //var goldenEgg = document.createElement('img');
     var left1 = Math.floor(Math.random() * (window.screen.width - 60));
     goldenEgg.setAttribute('src', 'gold_egg_medium.png');
     goldenEgg.style.height = '50px';
