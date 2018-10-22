@@ -98,7 +98,7 @@ function redEgg() {
         if (top === (document.body.clientHeight - 110)) {
             var eggLeft = Number(redEgg.style.left.replace('px', '')) + 22;
             if (redEgg.style.left > basket.style.left && eggLeft < (left + 150 )) {
-                score = score + 10;
+                score = score + 100;
                 scoreDiv.innerHTML = "Score: " + score;
                 clearInterval(i);
                 impDiv.removeChild(impDiv);
