@@ -67,15 +67,14 @@ function simpleEgg() {
             }
         }
         if (top === document.body.clientHeight) {
+            clearInterval(a);
+            egg1.removeChild(eggImg);
             wastEggs++;
            wasteEgg.innerHTML = 'WasteEggs: ' + wastEggs;
             if (wastEggs === 10) {
                 alert('Game over!!');
                 window.location.reload();
             }
-            clearInterval(a);
-            egg1.removeChild(eggImg);
-
         }
     }, 10);
 }
