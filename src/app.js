@@ -7,6 +7,7 @@ var score = 0;
 var wastEggs = 0;
 var left = 0;
 var clientX;
+
 document.onkeydown = moveBasket;
 function moveBasket(e) {
     e = e || window.event;
