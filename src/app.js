@@ -127,17 +127,22 @@ function goldenEgg() {
     var i = setInterval(function () {
         goldenEgg.style.top = top++ + 'px';
         goldenEgg.style.left = left1 + 'px';
-        if (top <= (window.screen.height - 160)) {
-            top = top + 3;
+        if (top === (document.body.clientHeight - 110)) {
+            var eggLeft = Number(goldenEgg.style.left.replace('px', '')) + 20;
+            if (goldenEgg.style.left > basket.style.left && eggLeft < (left + 150 )) {
+                score = score + 20;
+                scoreDiv.innerHTML = "Score: " + score;
+                clearInterval(i);
+                impEgg2.removeChild(goldenEgg);
+            }
         }
         else {
-            if (goldenEgg.style.left >= basket.style.left && goldenEgg.style.left <= (left + 150 + 'px')) {
-                score = score + 50;
-                scoreDiv.innerHTML = "Score: " + score;
+            if (top === document.body.clientHeight) {
+                clearInterval(i);
+                impEgg2.removeChild(goldenEgg);
             }
-            clearInterval(i);
-            impEgg2.removeChild(goldenEgg);
-            redEgg();
         }
     })
 }
+
+setInterval(goldenEgg , 4000);
