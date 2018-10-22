@@ -104,14 +104,15 @@ function redEgg() {
                 impDiv.removeChild(impDiv);
             }
         }
-        else {
-            if (redEgg.style.left >= basket.style.left && redEgg.style.left <= (left + 150 + 'px')) {
-                score = score + 100;
-                scoreDiv.innerHTML = "Score: " + score;
-            }
-
+        if (top === document.body.clientHeight) {
             clearInterval(i);
             impDiv.removeChild(redEgg);
+            //wastEggs++;
+            //wasteEgg.innerHTML = 'WasteEggs: ' + wastEggs;
+            if (wastEggs === 10) {
+                alert('Game over!!');
+                window.location.reload();
+            }
         }
     })
 }
