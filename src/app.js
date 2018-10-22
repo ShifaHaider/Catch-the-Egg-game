@@ -107,12 +107,6 @@ function redEgg() {
         if (top === document.body.clientHeight) {
             clearInterval(i);
             impDiv.removeChild(redEgg);
-            //wastEggs++;
-            //wasteEgg.innerHTML = 'WasteEggs: ' + wastEggs;
-            if (wastEggs === 10) {
-                alert('Game over!!');
-                window.location.reload();
-            }
         }
     })
 }
