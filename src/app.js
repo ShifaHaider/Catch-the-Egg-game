@@ -138,8 +138,3 @@ function goldenEgg() {
         }
     })
 }
-
-function scoreUpdate() {
-    score = score + 10;
-    scoreDiv.innerHTML = "Score: " + score;
-}
