@@ -74,7 +74,7 @@ function simpleEgg() {
             if (wastEggs === 10) {
                 alert('Game over!!');
                 window.location.reload();
-            }'Hello'
+            }
         }
     }, 10);
 }
