@@ -142,7 +142,7 @@ function goldenEgg() {
                 impEgg2.removeChild(goldenEgg);
             }
         }
-    })a
+    })
 }
 
 setInterval(goldenEgg , 4000);
