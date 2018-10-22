@@ -49,9 +49,9 @@ function simpleEgg() {
     var eggImg = document.createElement('img');
     var left1 = Math.floor(Math.random() * (window.screen.width - 60));
     eggImg.setAttribute('src', 'egg2.png');
-    //eggImg.style.height = '45px';
+    eggImg.style.height = '45px';
     eggImg.style.width = '32px';
-    eggImg.setAttribute('class', 'egg');
+    //eggImg.setAttribute('class', 'egg');
     egg1.appendChild(eggImg);
     var top = 0;
     var a = setInterval(function () {
