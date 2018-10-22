@@ -70,7 +70,7 @@ function simpleEgg() {
             clearInterval(a);
             egg1.removeChild(eggImg);
             wastEggs++;
-           wasteEgg.innerHTML = 'WasteEggs: ' + wastEggs;
+            wasteEgg.innerHTML = 'WasteEggs: ' + wastEggs;
             if (wastEggs === 10) {
                 alert('Game over!!');
                 window.location.reload();
@@ -93,8 +93,8 @@ function redEgg() {
     impDiv.appendChild(redEgg);
     var top = 0;
     var i = setInterval(function () {
-            redEgg.style.top = top++ + 'px';
-            redEgg.style.left = left1 + 'px';
+        redEgg.style.top = top++ + 'px';
+        redEgg.style.left = left1 + 'px';
         if (top === (document.body.clientHeight - 110)) {
             var eggLeft = Number(redEgg.style.left.replace('px', '')) + 22;
             if (redEgg.style.left > basket.style.left && eggLeft < (left + 150 )) {
@@ -111,6 +111,7 @@ function redEgg() {
     })
 }
 
+redEgg();
 function goldenEgg() {
     var impEgg2 = document.getElementById('impEgg2');
     var goldenEgg = document.createElement('img');
