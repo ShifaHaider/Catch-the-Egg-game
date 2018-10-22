@@ -57,7 +57,7 @@ function simpleEgg() {
     var a = setInterval(function () {
         eggImg.style.top = top++ + 'px';
         eggImg.style.left = left1 + 'px';
-        if (top === (document.body.clientHeight - 100)) {
+        if (top === (document.body.clientHeight - 110)) {
             var eggLeft = Number(eggImg.style.left.replace('px', '')) + 22;
             if (eggImg.style.left > basket.style.left && eggLeft < (left + 150 )) {
                 score = score + 10;
@@ -83,20 +83,26 @@ simpleEgg();
 setInterval(simpleEgg, 2000);
 
 function redEgg() {
-    var impEgg = document.getElementById('impEgg');
+    var impDiv = document.getElementById('impEgg');
     var redEgg = document.createElement('img');
     var left1 = Math.floor(Math.random() * (window.screen.width - 60));
     redEgg.setAttribute('src', 'impEgg.png');
     redEgg.style.height = '50px';
     redEgg.style.width = '40px';
     redEgg.setAttribute('class', 'egg');
-    impEgg.appendChild(redEgg);
+    impDiv.appendChild(redEgg);
     var top = 0;
     var i = setInterval(function () {
             redEgg.style.top = top++ + 'px';
             redEgg.style.left = left1 + 'px';
-        if (top <= (window.screen.height - 160)) {
-            top = top + 4;
+        if (top === (document.body.clientHeight - 100)) {
+            var eggLeft = Number(redEgg.style.left.replace('px', '')) + 22;
+            if (redEgg.style.left > basket.style.left && eggLeft < (left + 150 )) {
+                score = score + 10;
+                scoreDiv.innerHTML = "Score: " + score;
+                clearInterval(i);
+                impDiv.removeChild(impDiv);
+            }
         }
         else {
             if (redEgg.style.left >= basket.style.left && redEgg.style.left <= (left + 150 + 'px')) {
@@ -105,7 +111,7 @@ function redEgg() {
             }
 
             clearInterval(i);
-            impEgg.removeChild(redEgg);
+            impDiv.removeChild(redEgg);
         }
     })
 }
