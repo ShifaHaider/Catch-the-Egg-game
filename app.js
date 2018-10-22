@@ -51,7 +51,7 @@ function simpleEgg() {
     eggImg.setAttribute('src', 'egg2.png');
     eggImg.style.height = '45px';
     eggImg.style.width = '32px';
-    //eggImg.setAttribute('class', 'egg');
+    eggImg.setAttribute('class', 'egg');
     egg1.appendChild(eggImg);
     var top = 0;
     var a = setInterval(function () {
@@ -78,6 +78,7 @@ function simpleEgg() {
         }
     }, 10);
 }
+
 simpleEgg();
 setInterval(simpleEgg, 2000);
 
