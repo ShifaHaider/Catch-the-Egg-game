@@ -77,9 +77,6 @@ function simpleEgg() {
             egg1.removeChild(eggImg);
 
         }
-
-
-
     }, 10);
 }
 simpleEgg();
