@@ -112,7 +112,6 @@ function redEgg() {
     })
 }
 
-redEgg();
 setInterval(redEgg, 6000);
 
 function goldenEgg() {
@@ -126,10 +125,10 @@ function goldenEgg() {
     impEgg2.appendChild(goldenEgg);
     var top = 0;
     var i = setInterval(function () {
+        goldenEgg.style.top = top++ + 'px';
+        goldenEgg.style.left = left1 + 'px';
         if (top <= (window.screen.height - 160)) {
             top = top + 3;
-            goldenEgg.style.top = top++ + 'px';
-            goldenEgg.style.left = left1 + 'px';
         }
         else {
             if (goldenEgg.style.left >= basket.style.left && goldenEgg.style.left <= (left + 150 + 'px')) {
