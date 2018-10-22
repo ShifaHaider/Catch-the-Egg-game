@@ -2,9 +2,9 @@ var basket = document.getElementById('basketImg');
 var egg = document.getElementsByClassName('egg');
 var scoreDiv = document.getElementById('score');
 var wasteEgg = document.getElementById('wasteEggs');
+
 var score = 0;
 var wastEggs = 0;
-
 var left = 0;
 var clientX;
 document.onkeydown = moveBasket;

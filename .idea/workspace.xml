@@ -34,9 +34,11 @@
       <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.3125">
-              <caret line="76" column="13" selection-start-line="76" selection-start-column="13" selection-end-line="76" selection-end-column="13" />
+            <state vertical-scroll-proportion="0.275">
+              <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
               <folding>
+                <element signature="n#!!block;n#moveBasket#0" expanded="false" />
+                <element signature="n#!!block;n#leftMove#0" expanded="false" />
                 <element signature="e#848#971#0" expanded="false" />
                 <element signature="n#!!block;n#redEgg#0" expanded="false" />
                 <element signature="n#!!block;n#goldenEgg#0" expanded="false" />
@@ -221,7 +223,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="3" />
+      <option name="time" value="4" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -231,6 +233,8 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="106" column="21" selection-start-line="106" selection-start-column="21" selection-end-line="106" selection-end-column="21" />
           <folding>
+            <element signature="n#!!block;n#moveBasket#0" expanded="false" />
+            <element signature="n#!!block;n#leftMove#0" expanded="false" />
             <element signature="e#848#971#0" expanded="false" />
             <element signature="n#!!block;n#redEgg#0" expanded="false" />
             <element signature="n#!!block;n#goldenEgg#0" expanded="false" />
@@ -251,6 +255,8 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
+            <element signature="n#!!block;n#moveBasket#0" expanded="false" />
+            <element signature="n#!!block;n#leftMove#0" expanded="false" />
             <element signature="e#848#971#0" expanded="false" />
             <element signature="n#!!block;n#redEgg#0" expanded="false" />
             <element signature="n#!!block;n#goldenEgg#0" expanded="false" />
@@ -271,6 +277,8 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
+            <element signature="n#!!block;n#moveBasket#0" expanded="false" />
+            <element signature="n#!!block;n#leftMove#0" expanded="false" />
             <element signature="e#848#971#0" expanded="false" />
             <element signature="n#!!block;n#redEgg#0" expanded="false" />
             <element signature="n#!!block;n#goldenEgg#0" expanded="false" />
@@ -299,6 +307,8 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
+            <element signature="n#!!block;n#moveBasket#0" expanded="false" />
+            <element signature="n#!!block;n#leftMove#0" expanded="false" />
             <element signature="e#848#971#0" expanded="false" />
             <element signature="n#!!block;n#redEgg#0" expanded="false" />
             <element signature="n#!!block;n#goldenEgg#0" expanded="false" />
@@ -311,6 +321,8 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
+            <element signature="n#!!block;n#moveBasket#0" expanded="false" />
+            <element signature="n#!!block;n#leftMove#0" expanded="false" />
             <element signature="e#848#971#0" expanded="false" />
             <element signature="n#!!block;n#redEgg#0" expanded="false" />
             <element signature="n#!!block;n#goldenEgg#0" expanded="false" />
@@ -376,9 +388,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3125">
-          <caret line="76" column="13" selection-start-line="76" selection-start-column="13" selection-end-line="76" selection-end-column="13" />
+        <state vertical-scroll-proportion="0.275">
+          <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
           <folding>
+            <element signature="n#!!block;n#moveBasket#0" expanded="false" />
+            <element signature="n#!!block;n#leftMove#0" expanded="false" />
             <element signature="e#848#971#0" expanded="false" />
             <element signature="n#!!block;n#redEgg#0" expanded="false" />
             <element signature="n#!!block;n#goldenEgg#0" expanded="false" />
