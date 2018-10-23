@@ -20,13 +20,13 @@ function moveBasket(e) {
 }
 function leftMove() {
     if (left >= 0) {
-        left = left - 10;
+        left = left - 20;
         basket.style.left = left + 'px';
     }
 }
 function rightMove() {
     if (left <= (document.body.clientWidth - 150)) {
-        left = left + 10;
+        left = left + 20;
     }
 
     else {
@@ -51,7 +51,7 @@ function simpleEgg() {
     var left1 = Math.floor(Math.random() * (window.screen.width - 60));
     eggImg.setAttribute('src', 'egg2.png');
     eggImg.style.height = '45px';
-    eggImg.style.width = '32px';
+    eggImg.style.width = '35px';
     eggImg.setAttribute('class', 'egg');
     egg1.appendChild(eggImg);
     var top = 0;
@@ -59,7 +59,8 @@ function simpleEgg() {
         eggImg.style.top = top++ + 'px';
         eggImg.style.left = left1 + 'px';
         if (top === (document.body.clientHeight - 110)) {
-            var eggLeft = Number(eggImg.style.left.replace('px', ''));
+            var eggLeft = Number(eggImg.style.left.replace('px', '')) ;
+            console.log(eggLeft , (eggLeft + 16));
             if (eggImg.style.left > basket.style.left && eggLeft < (left + 150 )) {
                 score = score + 10;
                 scoreDiv.innerHTML = "Score: " + score;
