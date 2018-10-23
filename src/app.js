@@ -2,6 +2,7 @@ var basket = document.getElementById('basketImg');
 var egg = document.getElementsByClassName('egg');
 var scoreDiv = document.getElementById('score');
 var wasteEgg = document.getElementById('wasteEggs');
+var animateP = document.getElementById('animatePoint');
 
 var score = 0;
 var wastEggs = 0;
@@ -99,11 +100,15 @@ function redEgg() {
         redEgg.style.left = left1 + 'px';
         if (top === (document.body.clientHeight - 110)) {
             var eggLeft = Number(redEgg.style.left.replace('px', '')) + 20;
-            if (redEgg.style.left > basket.style.left && eggLeft < (left + 150 )) {
+            if (redEgg.style.left > basket.style.left && eggLeft < (left + 150)) {
+                animateP.innerHTML = '50';
+                //animateP.style.bottom = basket.style.bottom;
+                animateP.style.left = basket.style.left;
                 score = score + 50;
                 scoreDiv.innerHTML = "Score: " + score;
                 clearInterval(i);
                 impDiv.removeChild(redEgg);
+                //document.body.removeChild(animateP);
             }
         }
         if (top === document.body.clientHeight) {
