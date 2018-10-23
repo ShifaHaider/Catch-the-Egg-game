@@ -73,15 +73,15 @@ function simpleEgg() {
             wastEggs++;
             wasteEgg.innerHTML = 'WasteEggs: ' + wastEggs;
             if (wastEggs === 10) {
-                alert('Game over!!');
-                window.location.reload();
+                //alert('Game over!!');
+                //window.location.reload();
             }
         }
     }, 10);
 }
 
 simpleEgg();
-setInterval(simpleEgg, 2000);
+setInterval(simpleEgg, 3000);
 
 function redEgg() {
     var impDiv = document.getElementById('impEgg');
@@ -112,7 +112,7 @@ function redEgg() {
     })
 }
 
-setInterval(redEgg, 6000);
+setInterval(redEgg, 12000);
 
 function goldenEgg() {
     var impEgg2 = document.getElementById('impEgg2');
@@ -145,4 +145,4 @@ function goldenEgg() {
     })
 }
 
-setInterval(goldenEgg , 4000);
+setInterval(goldenEgg , 9000);
