@@ -58,7 +58,7 @@ function simpleEgg() {
     var a = setInterval(function () {
         eggImg.style.top = top++ + 'px';
         eggImg.style.left = left1 + 'px';
-        if (top === (document.body.clientHeight - 210)) {
+        if (top === (document.body.clientHeight - 110)) {
             var eggLeft = Number(eggImg.style.left.replace('px', ''));
             if (eggImg.style.left > basket.style.left && eggLeft < (left + 150 )) {
                 score = score + 10;
@@ -96,7 +96,7 @@ function redEgg() {
     var i = setInterval(function () {
         redEgg.style.top = top++ + 'px';
         redEgg.style.left = left1 + 'px';
-        if (top === (document.body.clientHeight - 210)) {
+        if (top === (document.body.clientHeight - 110)) {
             var eggLeft = Number(redEgg.style.left.replace('px', '')) + 20;
             if (redEgg.style.left > basket.style.left && eggLeft < (left + 150 )) {
                 score = score + 50;
@@ -127,7 +127,7 @@ function goldenEgg() {
     var i = setInterval(function () {
         goldenEgg.style.top = top++ + 'px';
         goldenEgg.style.left = left1 + 'px';
-        if (top === (document.body.clientHeight - 210)) {
+        if (top === (document.body.clientHeight - 110)) {
             var eggLeft = Number(goldenEgg.style.left.replace('px', '')) + 20;
             if (goldenEgg.style.left > basket.style.left && eggLeft < (left + 150 )) {
                 score = score + 20;
