@@ -101,9 +101,9 @@ function redEgg() {
         if (top === (document.body.clientHeight - 110)) {
             var eggLeft = Number(redEgg.style.left.replace('px', '')) + 20;
             if (redEgg.style.left > basket.style.left && eggLeft < (left + 150)) {
-                animateP.innerHTML = '50';
+                //animateP.innerHTML = '50';
                 //animateP.style.bottom = basket.style.bottom;
-                animateP.style.left = basket.style.left;
+                //animateP.style.left = basket.style.left;
                 score = score + 50;
                 scoreDiv.innerHTML = "Score: " + score;
                 clearInterval(i);
@@ -152,3 +152,4 @@ function goldenEgg() {
 }
 
 setInterval(goldenEgg , 9000);
+Hellooooooooooooooooooooooooooo
