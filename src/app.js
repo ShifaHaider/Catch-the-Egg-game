@@ -5,7 +5,7 @@ var wasteEgg = document.getElementById('wasteEggs');
 var animateP = document.getElementById('animatePoint');
 
 var score = 0;
-var wastEggs = 0;
+var wastEggs = 9;
 var left = 0;
 var clientX;
 
@@ -47,6 +47,7 @@ window.addEventListener('mousemove', function (e) {
 });
 
 function simpleEgg() {
+    var wasteEggs = document.getElementsByClassName('waste-egg');
     var egg1 = document.getElementById('egg1');
     var eggImg = document.createElement('img');
     var left1 = Math.floor(Math.random() * (window.screen.width - 60));
@@ -62,7 +63,7 @@ function simpleEgg() {
         if (top === (document.body.clientHeight - 110)) {
             var eggLeft = Number(eggImg.style.left.replace('px', '')) ;
             console.log(eggLeft , (eggLeft + 16));
-            if (eggImg.style.left > basket.style.left && eggLeft < (left + 150 )) {
+            if (eggLeft > left && eggLeft < (left + 150 )) {
                 score = score + 10;
                 scoreDiv.innerHTML = "Score: " + score;
                 clearInterval(a);
@@ -72,9 +73,11 @@ function simpleEgg() {
         if (top === document.body.clientHeight) {
             clearInterval(a);
             egg1.removeChild(eggImg);
-            wastEggs++;
-            wasteEgg.innerHTML = 'WasteEggs: ' + wastEggs;
-            if (wastEggs === 10) {
+            wasteEggs[wastEggs].src = 'broken-egg.png';
+            wasteEggs[wastEggs].style.height = '40px';
+            wasteEggs[wastEggs].style.width = '40px';
+            wastEggs--;
+            if (wastEggs === -1) {
                 alert('Game over!!');
                 window.location.reload();
             }
@@ -100,10 +103,7 @@ function redEgg() {
         redEgg.style.left = left1 + 'px';
         if (top === (document.body.clientHeight - 110)) {
             var eggLeft = Number(redEgg.style.left.replace('px', '')) + 20;
-            if (redEgg.style.left > basket.style.left && eggLeft < (left + 150)) {
-                //animateP.innerHTML = '50';
-                //animateP.style.bottom = basket.style.bottom;
-                //animateP.style.left = basket.style.left;
+            if (eggLeft > left && eggLeft < (left + 150)) {
                 score = score + 50;
                 scoreDiv.innerHTML = "Score: " + score;
                 clearInterval(i);
@@ -135,7 +135,7 @@ function goldenEgg() {
         goldenEgg.style.left = left1 + 'px';
         if (top === (document.body.clientHeight - 110)) {
             var eggLeft = Number(goldenEgg.style.left.replace('px', '')) + 20;
-            if (goldenEgg.style.left > basket.style.left && eggLeft < (left + 150 )) {
+            if (eggLeft > left && eggLeft < (left + 150 )) {
                 score = score + 20;
                 scoreDiv.innerHTML = "Score: " + score;
                 clearInterval(i);
