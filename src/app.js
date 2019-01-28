@@ -107,7 +107,6 @@ function redEgg() {
                 scoreDiv.innerHTML = "Score: " + score;
                 clearInterval(i);
                 impDiv.removeChild(redEgg);
-                //document.body.removeChild(animateP);
             }
         }
         if (top === document.body.clientHeight) {
