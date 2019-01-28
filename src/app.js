@@ -54,12 +54,12 @@ function simpleEgg() {
     eggImg.setAttribute('src', 'egg2.png');
     eggImg.style.height = '45px';
     eggImg.style.width = '35px';
+    eggImg.style.left = left1 + 'px';
     eggImg.setAttribute('class', 'egg');
     egg1.appendChild(eggImg);
     var top = 0;
     var a = setInterval(function () {
         eggImg.style.top = top++ + 'px';
-        eggImg.style.left = left1 + 'px';
         if (top === (document.body.clientHeight - 110)) {
             var eggLeft = Number(eggImg.style.left.replace('px', '')) ;
             if (eggLeft > left && eggLeft < (left + 150 )) {
@@ -94,12 +94,12 @@ function redEgg() {
     redEgg.setAttribute('src', 'impEgg.png');
     redEgg.style.height = '50px';
     redEgg.style.width = '40px';
+    redEgg.style.left = left1 + 'px';
     redEgg.setAttribute('class', 'egg');
     impDiv.appendChild(redEgg);
     var top = 0;
     var i = setInterval(function () {
         redEgg.style.top = top++ + 'px';
-        redEgg.style.left = left1 + 'px';
         if (top === (document.body.clientHeight - 110)) {
             var eggLeft = Number(redEgg.style.left.replace('px', '')) + 20;
             if (eggLeft > left && eggLeft < (left + 150)) {
@@ -126,12 +126,12 @@ function goldenEgg() {
     goldenEgg.setAttribute('src', 'gold_egg_medium.png');
     goldenEgg.style.height = '50px';
     goldenEgg.style.width = '45px';
+    goldenEgg.style.left = left1 + 'px';
     goldenEgg.setAttribute('class', 'egg');
     impEgg2.appendChild(goldenEgg);
     var top = 0;
     var i = setInterval(function () {
         goldenEgg.style.top = top++ + 'px';
-        goldenEgg.style.left = left1 + 'px';
         if (top === (document.body.clientHeight - 110)) {
             var eggLeft = Number(goldenEgg.style.left.replace('px', '')) + 20;
             if (eggLeft > left && eggLeft < (left + 150 )) {
